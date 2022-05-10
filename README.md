@@ -1,9 +1,9 @@
-# Ansible Galaxy Role MOTD
+# Ansible Galaxy Role Motd
 
 ![Build Status](https://github.com/leadlineit/ansible-role-motd/actions/workflows/ansible-galaxy-ci.yml/badge.svg)
 [![Galaxy Role](https://img.shields.io/badge/Ansible--Galaxy-leadlineit.motd-blue.svg?logo=ansible&logoColor=white)](https://galaxy.ansible.com/leadlineit/motd/)
 
-This role helps to configure motd package for Debian(stretch/buster/bullseye).
+This role helps to manage motd package for Debian(stretch/buster/bullseye).
 
 Requirements
 ------------
