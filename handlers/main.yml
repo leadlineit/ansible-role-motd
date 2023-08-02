@@ -1,3 +1,4 @@
 ---
-- name: update motd
+- name: Update motd
   ansible.builtin.shell: 'run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new && mv /run/motd.dynamic.new /run/motd.dynamic'
+  changed_when: false
